@@ -13,7 +13,11 @@ div.textContent = item;
 
 function sortDescending(){
     list.sort((a, b) => a < b ? 1 : -1);                
-    }
+    };
+
+    function showOdd(){
+        return list.filter(item => item % 2 != 0);
+    };
 
     displayList(); 
 
@@ -31,5 +35,9 @@ function sortDescending(){
     sortDescending();
     displayList();
  });
+
+
+
+ 
 
 
