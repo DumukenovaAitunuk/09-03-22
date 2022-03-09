@@ -22,6 +22,10 @@ function sortDescending(){
     displayList();
  });
  
+ let aside = document.querySelector('#sort-descending').addEventListener('click', function() {
+    sortDescending();
+    displayList();
+ });
  
 
 
