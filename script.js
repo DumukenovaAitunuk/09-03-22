@@ -12,7 +12,7 @@ div.textContent = item;
 
 
 function sortDescending(){
-    list.sort((a, b) => a << b ? 1 : -1);                
+    list.sort((a, b) => a < b ? 1 : -1);                
     }
 
     displayList(); 
