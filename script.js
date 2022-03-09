@@ -9,5 +9,19 @@ div.textContent = item;
  main.append(div);
     });
 }
-displayList();
-displayList();
+
+
+function sortDescending(){
+    list.sort((a, b) => a > b ? 1 : -1);                
+    }
+
+    displayList(); 
+
+ let aside = document.querySelector('#sort-descending').addEventListener('click', function() {
+    sortDescending();
+    displayList();
+ });
+ 
+ 
+
+
