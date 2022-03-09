@@ -19,6 +19,10 @@ function sortDescending(){
         return list.filter(item => item % 2 != 0);
     };
 
+    function showOdd(){
+        return list.filter(item => item % 2 != 0);
+    };
+
     displayList(); 
 
  let aside = document.querySelector('#sort-descending').addEventListener('click', function() {
